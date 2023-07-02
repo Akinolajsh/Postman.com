@@ -26,7 +26,7 @@ const Header = () => {
               </Text>
             </SearchHolder>
             <Button>
-              <GlobalButton width="60px" height="30px" text="Sign In" color="black" border="1px olid Sliver" brad="5px"/>
+              <GlobalButton width="60px" height="30px" text="Sign In" color="black" border="1px solid #d6d6d6" brad="5px"/>
               <GlobalButton width="120px" height="30px" text="Sign Up for free" color="white" bg="#ff6c37" brad="5px"/>
             </Button>
           </ButtonHolder>
@@ -120,7 +120,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: sticky;
+  position: fixed;
   z-index: 10;
   background-color: white;
 `;

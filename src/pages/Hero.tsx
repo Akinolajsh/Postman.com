@@ -59,7 +59,7 @@ font-weight: 600;
 
 const Input = styled.input`
 width: 270px;
-padding: 0 5px;
+padding: 0 10px;
 border: none;
 outline: none;
 border-radius: 5px 0px 0 5px;
@@ -89,9 +89,11 @@ span{
 `;
 
 const Image = styled.img`
-  width: 70%;
+  width: 75%;
   position: absolute;
-  top: -40px;
+  top: 0px;
+  /* right: -30px; */
+  overflow: hidden;
 `;
 const WriteUp = styled.div`
   width: 550px;
@@ -99,6 +101,7 @@ const WriteUp = styled.div`
   /* background-color: red; */
   position: absolute;
   left: 30px;
+  bottom: 40px;
 `;
 const Main = styled.div`
   width: 95%;
@@ -111,7 +114,7 @@ const Main = styled.div`
 `;
 const Container = styled.div`
   width: 100%;
-  height: 550px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
